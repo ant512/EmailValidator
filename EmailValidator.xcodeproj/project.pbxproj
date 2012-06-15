@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		647E80F4158BBEF70054595E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647E80F3158BBEF70054595E /* Foundation.framework */; };
+		647E80F7158BBEF70054595E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 647E80F6158BBEF70054595E /* main.m */; };
+		647E80FB158BBEF70054595E /* EmailValidator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 647E80FA158BBEF70054595E /* EmailValidator.1 */; };
+		647E8104158BBF590054595E /* SZEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 647E8103158BBF590054595E /* SZEmailValidator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		647E80ED158BBEF70054595E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				647E80FB158BBEF70054595E /* EmailValidator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		647E80EF158BBEF70054595E /* EmailValidator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EmailValidator; sourceTree = BUILT_PRODUCTS_DIR; };
+		647E80F3158BBEF70054595E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		647E80F6158BBEF70054595E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		647E80F9158BBEF70054595E /* EmailValidator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmailValidator-Prefix.pch"; sourceTree = "<group>"; };
+		647E80FA158BBEF70054595E /* EmailValidator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EmailValidator.1; sourceTree = "<group>"; };
+		647E8102158BBF590054595E /* SZEmailValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZEmailValidator.h; sourceTree = "<group>"; };
+		647E8103158BBF590054595E /* SZEmailValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZEmailValidator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		647E80EC158BBEF70054595E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647E80F4158BBEF70054595E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		647E80E4158BBEF70054595E = {
+			isa = PBXGroup;
+			children = (
+				647E80F5158BBEF70054595E /* EmailValidator */,
+				647E80F2158BBEF70054595E /* Frameworks */,
+				647E80F0158BBEF70054595E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		647E80F0158BBEF70054595E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				647E80EF158BBEF70054595E /* EmailValidator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		647E80F2158BBEF70054595E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				647E80F3158BBEF70054595E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		647E80F5158BBEF70054595E /* EmailValidator */ = {
+			isa = PBXGroup;
+			children = (
+				647E80F6158BBEF70054595E /* main.m */,
+				647E8101158BBF590054595E /* lib */,
+				647E80FA158BBEF70054595E /* EmailValidator.1 */,
+				647E80F8158BBEF70054595E /* Supporting Files */,
+			);
+			path = EmailValidator;
+			sourceTree = "<group>";
+		};
+		647E80F8158BBEF70054595E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				647E80F9158BBEF70054595E /* EmailValidator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		647E8101158BBF590054595E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				647E8102158BBF590054595E /* SZEmailValidator.h */,
+				647E8103158BBF590054595E /* SZEmailValidator.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		647E80EE158BBEF70054595E /* EmailValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647E80FE158BBEF80054595E /* Build configuration list for PBXNativeTarget "EmailValidator" */;
+			buildPhases = (
+				647E80EB158BBEF70054595E /* Sources */,
+				647E80EC158BBEF70054595E /* Frameworks */,
+				647E80ED158BBEF70054595E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailValidator;
+			productName = EmailValidator;
+			productReference = 647E80EF158BBEF70054595E /* EmailValidator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		647E80E6158BBEF70054595E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ZOLL;
+			};
+			buildConfigurationList = 647E80E9158BBEF70054595E /* Build configuration list for PBXProject "EmailValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 647E80E4158BBEF70054595E;
+			productRefGroup = 647E80F0158BBEF70054595E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				647E80EE158BBEF70054595E /* EmailValidator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		647E80EB158BBEF70054595E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647E80F7158BBEF70054595E /* main.m in Sources */,
+				647E8104158BBF590054595E /* SZEmailValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		647E80FC158BBEF70054595E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		647E80FD158BBEF80054595E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		647E80FF158BBEF80054595E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailValidator/EmailValidator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		647E8100158BBEF80054595E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailValidator/EmailValidator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		647E80E9158BBEF70054595E /* Build configuration list for PBXProject "EmailValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647E80FC158BBEF70054595E /* Debug */,
+				647E80FD158BBEF80054595E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647E80FE158BBEF80054595E /* Build configuration list for PBXNativeTarget "EmailValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647E80FF158BBEF80054595E /* Debug */,
+				647E8100158BBEF80054595E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 647E80E6158BBEF70054595E /* Project object */;
+}
