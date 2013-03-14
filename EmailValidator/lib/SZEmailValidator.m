@@ -36,13 +36,7 @@ struct SZEmailParserState {
 	unsigned int domainPartStart = 0;
 	unsigned int commentDepth = 0;
 	
-	struct SZEmailParserState state;
-	
-	state.dot = NO;
-	state.quoted = NO;
-	state.escaped = NO;
-	state.followingQuoteBlock = NO;
-	state.domain = NO;
+	struct SZEmailParserState state = {0};
 	
 	for (unsigned int i = 0; i < candidate.length; ++i) {
 		unichar character = [candidate characterAtIndex:i];
